@@ -1,0 +1,311 @@
+.tenses-explorer {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-header h2 {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #ffffff 40%, var(--accent-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Matrix Styling */
+.matrix-container {
+  overflow-x: auto;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.matrix-grid {
+  display: grid;
+  grid-template-columns: 140px repeat(3, 1fr);
+  gap: 0.75rem;
+  min-width: 800px; /* Force desktop scroll on tiny mobile screens for grid integrity */
+}
+
+.grid-header-corner {
+  background: transparent;
+}
+
+.grid-header-col {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0.75rem;
+  color: var(--accent-secondary);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+.grid-row-container {
+  display: contents; /* Allows row header and cells to sit in parent grid columns */
+}
+
+.grid-header-row {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
+  padding: 0.5rem;
+}
+
+.matrix-cell {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  cursor: pointer;
+  text-align: left;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.matrix-cell:hover {
+  background: rgba(99, 102, 241, 0.08);
+  border-color: rgba(99, 102, 241, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+}
+
+.matrix-cell.selected {
+  background: rgba(168, 85, 247, 0.1);
+  border-color: var(--accent-secondary);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
+}
+
+.cell-tense-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.cell-tense-formula {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Detail Card */
+.tense-detail-card {
+  padding: 2rem;
+  border-left: 4px solid var(--accent-primary);
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 1rem;
+}
+
+.detail-header h3 {
+  font-size: 1.85rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.formula-badge {
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+.formula-badge code {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+  transition: color var(--transition-fast);
+  padding: 0 0.5rem;
+}
+
+.close-btn:hover {
+  color: var(--accent-danger);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+  .border-left {
+    border-left: none !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 2rem;
+  }
+}
+
+.detail-section h4 {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.03);
+  padding-bottom: 0.25rem;
+}
+
+.border-left {
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  padding-left: 2rem;
+}
+
+.uses-list {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.uses-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.uses-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0.25rem;
+  color: var(--accent-primary);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.examples-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.example-item {
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.example-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.example-label.positive {
+  background: rgba(16, 185, 129, 0.1);
+  color: #34d399;
+}
+
+.example-label.negative {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+}
+
+.example-label.question {
+  background: rgba(245, 158, 11, 0.1);
+  color: #fbbf24;
+}
+
+.example-item p {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+/* Mistakes Container */
+.mistakes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.mistake-card {
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.incorrect-box, .correct-box {
+  padding: 0.75rem 1rem;
+}
+
+.incorrect-box {
+  background: rgba(239, 68, 68, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.correct-box {
+  background: rgba(16, 185, 129, 0.03);
+}
+
+.badge-error {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #f87171;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.badge-success {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #34d399;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.incorrect-box p, .correct-box p {
+  font-size: 0.9rem;
+}
+
+.perfect-notice {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+}
+
+/* Empty State */
+.empty-detail-state {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-secondary);
+}
+
+.empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}

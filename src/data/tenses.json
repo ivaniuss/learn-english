@@ -1,0 +1,278 @@
+[
+  {
+    "id": "present-simple",
+    "name": "Present Simple",
+    "formula": "Subject + Verb (s/es for he/she/it)",
+    "auxiliary": "do / does",
+    "uses": [
+      "Facts, general truths and permanent states.",
+      "Habits, routines and regular actions.",
+      "Timetables and schedules (future meaning)."
+    ],
+    "examples": {
+      "positive": "I work every day. She speaks English fluently.",
+      "negative": "We don't live in London. He doesn't play tennis.",
+      "question": "Do you know him? Does the train leave at 12:00?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "She speak English.",
+        "correct": "She speaks English. (Don't forget the -s for third person!)"
+      },
+      {
+        "incorrect": "He doesn't works here.",
+        "correct": "He doesn't work here. (Auxiliary 'does' already takes the -s)."
+      }
+    ]
+  },
+  {
+    "id": "past-simple",
+    "name": "Past Simple",
+    "formula": "Subject + Verb-ED (regular) or Irregular Past (V2)",
+    "auxiliary": "did",
+    "uses": [
+      "Completed actions in the past at a specific time.",
+      "Past habits and states that are finished."
+    ],
+    "examples": {
+      "positive": "I visited Paris last year. They went to the cinema yesterday.",
+      "negative": "She didn't write the letter. We didn't see the movie.",
+      "question": "Did you sleep well? Where did they buy that car?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I didn't went to school.",
+        "correct": "I didn't go to school. (Use infinitive after 'didn't')."
+      },
+      {
+        "incorrect": "She writed a book.",
+        "correct": "She wrote a book. (Write is an irregular verb!)."
+      }
+    ]
+  },
+  {
+    "id": "future-simple",
+    "name": "Future Simple",
+    "formula": "Subject + will + Verb 1",
+    "auxiliary": "will",
+    "uses": [
+      "Instant, spontaneous decisions.",
+      "Predictions based on what we think or believe.",
+      "Promises, offers, and requests."
+    ],
+    "examples": {
+      "positive": "I will help you with your homework. The phone is ringing, I'll answer it.",
+      "negative": "We won't (will not) go to the party. He won't tell anyone.",
+      "question": "Will you marry me? What time will they arrive?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I will to call you.",
+        "correct": "I will call you. (Don't use 'to' after modal verbs like 'will')."
+      },
+      {
+        "incorrect": "If it will rain, I will stay home.",
+        "correct": "If it rains, I will stay home. (In time and conditional clauses, use present simple for the future)."
+      }
+    ]
+  },
+  {
+    "id": "present-continuous",
+    "name": "Present Continuous",
+    "formula": "Subject + am/is/are + Verb-ING",
+    "auxiliary": "am / is / are",
+    "uses": [
+      "Actions happening right now, at the moment of speaking.",
+      "Temporary situations happening around now.",
+      "Fixed plans and arrangements in the near future."
+    ],
+    "examples": {
+      "positive": "I am working at the moment. They are playing football in the garden.",
+      "negative": "She isn't reading anything right now. We aren't watching TV.",
+      "question": "Are you listening to me? What is he doing over there?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I am liking this coffee.",
+        "correct": "I like this coffee. (Stative verbs like like, love, know, want, are rarely used in continuous tenses)."
+      },
+      {
+        "incorrect": "He is runing.",
+        "correct": "He is running. (Double the consonant for short vowels!)."
+      }
+    ]
+  },
+  {
+    "id": "past-continuous",
+    "name": "Past Continuous",
+    "formula": "Subject + was/were + Verb-ING",
+    "auxiliary": "was / were",
+    "uses": [
+      "An action that was in progress at a specific time in the past.",
+      "An ongoing action in the past interrupted by a shorter action (Past Simple)."
+    ],
+    "examples": {
+      "positive": "I was studying when you called. They were driving home at 10 PM.",
+      "negative": "She wasn't paying attention. We weren't sleeping when it started raining.",
+      "question": "What were you doing yesterday at 8 PM? Was it snowing?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "They was playing football.",
+        "correct": "They were playing football. (Use 'were' for you, we, they)."
+      }
+    ]
+  },
+  {
+    "id": "future-continuous",
+    "name": "Future Continuous",
+    "formula": "Subject + will be + Verb-ING",
+    "auxiliary": "will be",
+    "uses": [
+      "An action that will be in progress at a specific point in the future.",
+      "Polite inquiries about someone's future plans."
+    ],
+    "examples": {
+      "positive": "This time tomorrow, I will be flying to New York. She will be sleeping by midnight.",
+      "negative": "I won't be working during the weekend. We won't be using that room.",
+      "question": "Will you be using your car tomorrow? What will they be doing?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I will being sleeping.",
+        "correct": "I will be sleeping. (Always use base form 'be' after 'will')."
+      }
+    ]
+  },
+  {
+    "id": "present-perfect",
+    "name": "Present Perfect Simple",
+    "formula": "Subject + have/has + Verb-ED or Irregular Past Participle (V3)",
+    "auxiliary": "have / has",
+    "uses": [
+      "Actions in the past where the time is not mentioned and is not important.",
+      "Recent events with results in the present.",
+      "Life experiences (ever, never).",
+      "Actions that started in the past and continue in the present (with for/since)."
+    ],
+    "examples": {
+      "positive": "I have lost my keys (I don't have them now). She has lived here since 2015.",
+      "negative": "We haven't seen that movie yet. He hasn't eaten lunch.",
+      "question": "Have you ever been to Rome? Has he finished his work?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I have bought a car yesterday.",
+        "correct": "I bought a car yesterday. (Do NOT use Present Perfect with specific past time expressions like 'yesterday', 'ago', 'in 2010')."
+      },
+      {
+        "incorrect": "She has lived here for 2015.",
+        "correct": "She has lived here since 2015. (Use 'since' for a starting point, 'for' for a duration of time like 'for 5 years')."
+      }
+    ]
+  },
+  {
+    "id": "past-perfect",
+    "name": "Past Perfect Simple",
+    "formula": "Subject + had + Verb-ED or Irregular V3",
+    "auxiliary": "had",
+    "uses": [
+      "An action that happened before another action in the past.",
+      "Often used with 'by the time', 'before', 'after', 'when'."
+    ],
+    "examples": {
+      "positive": "When we arrived, the train had already left. She had eaten before she went out.",
+      "negative": "He hadn't studied for the exam, so he failed. We hadn't met before last week.",
+      "question": "Had you finished your homework before you went to bed? Had they left?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I had went to bed when he called.",
+        "correct": "I had gone to bed when he called. (Use past participle V3, not past simple V2)."
+      }
+    ]
+  },
+  {
+    "id": "future-perfect",
+    "name": "Future Perfect Simple",
+    "formula": "Subject + will have + Verb-ED or Irregular V3",
+    "auxiliary": "will have",
+    "uses": [
+      "An action that will be completed by a specific point in the future.",
+      "Almost always used with 'by...' or 'by the time...'."
+    ],
+    "examples": {
+      "positive": "By next year, I will have graduated from university. She will have retired by 2030.",
+      "negative": "I won't have finished the report by tomorrow morning. We won't have eaten by 8 PM.",
+      "question": "Will you have arrived by 6 PM? Will they have completed the project by then?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "By tomorrow I will have write it.",
+        "correct": "By tomorrow I will have written it. (Must use past participle V3 after 'will have')."
+      }
+    ]
+  },
+  {
+    "id": "present-perfect-continuous",
+    "name": "Present Perfect Continuous",
+    "formula": "Subject + have/has been + Verb-ING",
+    "auxiliary": "have / has been",
+    "uses": [
+      "Actions that started in the past, continue in the present, emphasizing the duration.",
+      "Actions that finished very recently and have a clear physical result in the present."
+    ],
+    "examples": {
+      "positive": "I have been working out for two hours (and I am exhausted). She has been learning English for years.",
+      "negative": "We haven't been sleeping well lately. He hasn't been studying much.",
+      "question": "How long have you been waiting here? Has it been raining?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I have been knowing him for years.",
+        "correct": "I have known him for years. (Do not use continuous forms with stative verbs like 'know')."
+      }
+    ]
+  },
+  {
+    "id": "past-perfect-continuous",
+    "name": "Past Perfect Continuous",
+    "formula": "Subject + had been + Verb-ING",
+    "auxiliary": "had been",
+    "uses": [
+      "An action that was in progress in the past before another action, emphasizing duration.",
+      "Shows cause and effect in the past."
+    ],
+    "examples": {
+      "positive": "He had been running for an hour before he collapsed. They had been waiting for two hours when the bus arrived.",
+      "negative": "We hadn't been expecting any good news. She hadn't been feeling well.",
+      "question": "How long had they been talking before they agreed? Had you been sleeping?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "I was waiting for two hours when she arrived.",
+        "correct": "I had been waiting for two hours when she arrived. (To emphasize duration prior to another past action, use Past Perfect Continuous instead of Past Continuous)."
+      }
+    ]
+  },
+  {
+    "id": "future-perfect-continuous",
+    "name": "Future Perfect Continuous",
+    "formula": "Subject + will have been + Verb-ING",
+    "auxiliary": "will have been",
+    "uses": [
+      "An action that will be in progress in the future for a duration of time before a specific point."
+    ],
+    "examples": {
+      "positive": "In November, I will have been working here for 5 years. By 10 PM, she will have been sleeping for 3 hours.",
+      "negative": "I won't have been living here long enough to vote. We won't have been studying together for long.",
+      "question": "How long will you have been driving by the time we arrive? Will he have been training?"
+    },
+    "mistakes": [
+      {
+        "incorrect": "By next month, I will be working here for 5 years.",
+        "correct": "By next month, I will have been working here for 5 years. (Must use Future Perfect Continuous to describe continuous action before a future point)."
+      }
+    ]
+  }
+]
